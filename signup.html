@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up</title>
+ <style>
+    body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(P7.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+     h1 {
+         color: #6d6875;
+         font-family:"Lucida Handwriting";
+     }
+     h2 {
+         color: #8a2b2e;
+         font-family: "Lucida Handwriting";
+     }
+         input {
+         border: 1px solid #8a8a8a;
+         outline: none;
+         padding: 10px;
+         margin-bottom: 1rem;
+         background: #fff8dc;
+     }
+     span {
+         color: #4b0082;
+         font-family: "Copperplate";
+     }
+     div {
+         font-size: 0.9rem;
+         color: #8a8a8a;
+         margin-bottom:20px;
+     }
+     .buttom:hover{
+         background:#20b2aa;
+     }
+
+   </style>
+</head>
+<body>
+
+  <h1> sporter </h1>
+    <!-- Sign Up -->
+    <div class="login container"/>
+        <div class="login-container">
+            <h2> GO BEYOND YOUR LIMITS</h2>
+            <!-- Login Form -->
+            <form  method="post" action="signup.php">
+                <div>
+                    <span>Full Name</span>
+                    <input type="text" name="name" id="" placeholder="Your Name" required>
+                    <br>
+                    <span>Enter your email address</span>
+                    <input type="email" name="email" id="" placeholder="yourmail@gmail.com" required>
+                    <br>
+                    <span>Phone</span>
+                    <input type="text" name="phone" id="" placeholder="Enter your number" required>
+                    <br>
+                    <span>Enter your password</span>
+                    <input type="password" name="pass" id="" placeholder="At least 5" required>
+                    <br>
+                    <input name="sign" type="submit" value="Sign Up" class="buttom">
+                </div>
+            </form>
+        </div>
+
+  </body>
+</html>
